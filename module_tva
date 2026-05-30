@@ -24,7 +24,7 @@ def ruleaza_pipeline(df):
     df = curata_date(df)
     df = adauga_taxe(df)
     
-    prin(df)
+    print(df)
 
 if __name__ == '__main__':
     ruleaza_pipeline()
